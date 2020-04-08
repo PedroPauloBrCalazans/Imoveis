@@ -1,0 +1,21 @@
+{
+    "produtos":[
+        {
+            "id": 1,
+            "titulo": "SQS 310 Sul BL: N AP: 405, Asa Sul Brasília",
+            "subTitulo": "Asa Sul, Brasília ",
+            "valor": "150.350,00",
+            "descricao": "APARTAMENTO 250 m², 2 Quartos, 1 Suíte, Sala, Cozinha Americana, Banheiro, Varanda e 1 vaga na Garagem.",
+            "imagem": "comprar01.jpg" 
+        },
+
+        {
+            "id": 2,
+            "titulo": "Taguatinga Norte Conj: J Casa: 23, Taguatinga Norte Brasília",
+            "subTitulo": "Taguatinga Norte Conj: J, Brasília ",
+            "valor": "200.500,00",
+            "descricao": "Casa 350 m², 3 Quartos, 2 Suítes, Sala, Cozinha, Banheiro, Varanda e Garagem.",
+            "imagem": "comprar02.jpg"
+        }
+    ]
+}

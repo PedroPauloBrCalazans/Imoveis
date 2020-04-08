@@ -1,0 +1,25 @@
+<div class="container main-container">
+    <h4><p class="text-danger">Imóveis à venda em Brasília-DF</p></h4>
+
+    <div *ngFor="let produto of produtos" class="card mb-3" style="max-width: 1100px;">
+        <div  class="row no-gutters">
+            <div  class="col-md-4">
+                <img src="/assets/image/{{ produto.imagem }}" class="card-img" alt="">
+            </div>   
+            
+            
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">{{ produto.titulo }}</h5>
+              <p class="card-text">{{ produto.subTitulo }}</p>
+              <b><p class="card-text">R$ {{ produto.valor }}</p></b>
+              <p class="card-text">{{ produto.descricao }}</p>
+                <a class="card-text" [routerLink]="['/comprar-detalhe', produto]">
+                    <button type="submit" class="btn btn-primary btn-sm">Conhecer</button>
+                </a>    
+            </div>
+          </div>
+        </div>
+      </div>
+
+</div>
